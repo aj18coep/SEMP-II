@@ -5,3 +5,13 @@ Run by - npm start
 
 server - backend =>
 npm init -y
+
+
+Cloning from Github and installation -
+git pull
+
+cd server
+npm install
+
+cd client
+npm install 
