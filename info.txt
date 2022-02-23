@@ -1,8 +1,9 @@
 client - frontend  =>
 npx create-react-app ./
 Run by - npm start
-
-
+npm i react-router-dom
+ npm i react-bootstrap boostrap
+ 
 server - backend =>
 npm init -y
 

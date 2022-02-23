@@ -1,9 +1,11 @@
 import './App.css';
+import Navigation from './components/Navigation';
 
 function App() {
   return (
     <div className="App">
-      <h1>Basic front end initialized </h1>
+      {/* <h1>Basic front end initialized </h1> */}
+      <Navigation />
     </div>
   );
 }
