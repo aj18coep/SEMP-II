@@ -8,21 +8,22 @@ import {
   NavDropdown,
   Container,
 } from "react-bootstrap";
-import { BrowserRouter, Switch, Route, Link, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 
 import Home from "./Home";
 import About from "./About";
 import RegisterMentee from "./RegisterMentee";
 import RegisterMentor from "./RegisterMentor";
-import Login from "./Login";
+import LoginMentee from "./LoginMentee";
+import LoginMentor from "./LoginMentor";
 
 export default function Navigation() {
   return (
-    <BrowserRouter>
+    <Router>
       <div>
         <Navbar bg="dark" variant="dark" expand="lg">
           <Container>
-            <Navbar.Brand href="#home">Mentor-Connect</Navbar.Brand>
+            <Navbar.Brand href="/">Mentor-Connect</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
@@ -41,10 +42,10 @@ export default function Navigation() {
                   </NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title="Login" id="basic-nav-dropdown">
-                  <NavDropdown.Item href="#action/3.1">
+                  <NavDropdown.Item as={Link} to="/login-mentee">
                     Login as Mentee
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">
+                  <NavDropdown.Item as={Link} to="/login-mentor">
                     Login as Mentor
                   </NavDropdown.Item>
                 </NavDropdown>
@@ -54,21 +55,15 @@ export default function Navigation() {
         </Navbar>
 
         <Routes>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/signup-mentee">
-            <RegisterMentee />
-          </Route>
-          <Route path="/signup-mentor">
-            <RegisterMentor />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/signup-mentee" element={<RegisterMentee />}></Route>
+          <Route path="/signup-mentor" element={<RegisterMentor />}></Route>
+          <Route path="/login-mentee" element={<LoginMentee />}></Route>
+          <Route path="/login-mentor" element={<LoginMentor />}></Route>
         </Routes>
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 
