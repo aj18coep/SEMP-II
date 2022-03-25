@@ -17,3 +17,11 @@ npm install
 
 cd client
 npm install 
+
+---Fields in student and mentor tables -----------
+
+Student profile image pending -
+Student - first_name, last_name, profile_image_url, email_addr, sessions_taken, college_name, grad_year, username, password
+
+Mentor -
+first_name, last_name, email_addr, profile_image_url, sessions_taken, resume_link, rating, valid
