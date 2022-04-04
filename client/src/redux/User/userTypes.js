@@ -1,0 +1,15 @@
+export const LOGIN = "LOGIN";
+export const LOGOUT = "LOGOUT";
+export const ERROR = "ERROR";
+export const SET_LOGIN = "SET_LOGIN";
+export const GET_STUDENT = "GET_STUDENT";
+export const GET_MENTOR = "GET_MENTOR";
+export const GET_ADMIN = "GET_ADMIN";
+export const GET_SKILL = "GET_SKILL";
+export const GET_LANGUAGE = "GET_LANGUAGE";
+export const ADD_LANGUAGE = "ADD_LANGUAGE";
+export const ADD_SKILL = "ADD_SKILL";
+export const DELETE_LANGUAGE = "DELETE_LANGUAGE";
+export const DELETE_SKILL = "DELETE_SKILL";
+export const SET_ALL_LANGUAGES = "SET_ALL_LANGUAGES";
+export const SET_ALL_SKILLS = "SET_ALL_SKILLS";
