@@ -1,0 +1,111 @@
+.toplookout {
+    margin-top: 75px;
+    margin-bottom: 150px;
+}
+
+#login-form,
+#reg-form {
+    margin: 30px;
+    text-align: left;
+}
+
+.profile-wrapper {
+    padding-top: 60px;
+    text-align: left;
+}
+
+.row-btns {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+#pref-list-item {
+    border-bottom: 1px solid #cccccc;
+}
+
+.bi-check-square-fill {
+    font-size: 1.5rem;
+    color: green;
+}
+
+.bi-x-square-fill {
+    font-size: 1.5rem;
+    color: red;
+}
+
+.bi-check-square-fill:hover,
+.bi-x-square-fill:hover {
+    cursor: pointer;
+}
+
+.bi-exclamation-triangle {
+    font-size: 5rem;
+    color: #ffb91d;
+}
+
+#login-btn {
+    margin-bottom: 40px;
+}
+
+#pre-title,
+#title {
+    color: #f9ab32;
+}
+
+#title {
+    font-size: 70px;
+}
+
+.profile-section {
+    /* background: #f8f8ff; */
+    background: #f8f0fb;
+    padding: 40px;
+    margin-right: 50px;
+}
+
+.content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.link {
+    color: red;
+}
+
+.link:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.profilepic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: width 1.5s, height 1.5s, border-radius 1.5s;
+}
+
+.profilepic:hover {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 0%;
+}
+
+.spaceout {
+    border-bottom: 1px solid black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.padded {
+    padding-top: 20px;
+}
+
+/* .font1{
+    font-family: 'Times New Roman', Times, serif;
+} */
