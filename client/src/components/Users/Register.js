@@ -19,7 +19,7 @@ import {
   Route,
 } from "react-router-dom";
 import Login from "./Login";
-import cover from "../../reg_cover.png";
+import cover from "../../img/reg_cover.png";
 
 axios.defaults.withCredentials = true;
 

@@ -13,7 +13,7 @@ import "./Styles.css";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { login } from "../../redux/Users/userActions";
-import cover from "../../login_cover.jpg";
+import cover from "../../img/login_cover.jpg";
 
 axios.defaults.withCredentials = true;
 
