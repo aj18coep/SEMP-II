@@ -9,8 +9,7 @@ server - backend =>
 npm init -y
 
 
-Cloning from Github and installation -
-git pull
+Cloning from Github and installation - git pull
 
 cd server
 npm install
